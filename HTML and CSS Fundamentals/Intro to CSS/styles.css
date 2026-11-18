@@ -1,0 +1,143 @@
+/* COOKIE
+body {
+    background: mediumaquamarine;
+    color: chocolate;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px; /*adds space outside of the element * /
+}
+*/
+
+/* FLAG
+body {
+    margin: 0px;
+}
+.red {
+    background: red;
+    height: 100px;
+}
+.blue {
+    background: blue;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.green {
+    background: green;
+    height: 100px;
+}
+*/
+
+/* CENTERING ELEMENTS
+img {
+    width: 200px; /*needs width for centering* /
+    display: block; /*takes up all horizontal space; necessary for centering* /
+    margin-left: auto; /*auto means take up all avail space* /
+    margin-right: auto;
+}
+*/
+
+/* PADDING AND BORDER
+.card {
+    color: #222222;
+    background: lightgrey;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 4px solid #222222; /* between padding and margin * /
+    border-radius: 20px;
+
+    padding: 20px; /* adds space inside the element * /
+}
+*/
+
+/* FOLLOWING BUTTON
+button {
+    background: white; 
+    color: #0f1419;
+    font-weight: bold;
+
+    border: 2px solid #cfd9de;
+    border-radius: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+*/
+
+/* FLEXBOX
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+*/
+
+/* MARGIN/PADDING SHORTHAND
+.red-circle {
+    height: 150px;
+    width:150px;
+    border-radius: 100%;
+    background: #BC002D;
+
+    /*margin: 40px 0px 0px 100px;
+    top right bottom left* /
+
+    /*margin: 40px auto;
+    top/bottom right/left * /
+}
+*/
+
+/* FONTS
+@font-face {
+    src: url("Corleone.ttf");
+    font-family: Corleone;
+}
+h1 {
+    font-family: Corleone;
+}
+*/
+
+/* TEXT SHADOW 
+body {
+    letter-spacing: 4px;
+    background: #B7111B;
+    color: #FAFBF4;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+h1 {
+    font-size: 80px;
+    text-shadow: 5px -5px 5px black;
+    /* left/right up/down blur color * /
+    /*text-shadow: 0px 0px 2px black; to do outline* /
+}
+*/
+
+/* HOVER EFFECT*/
+a {
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 25px 0;
+    background: #E5383B;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #BA181B;
+}
